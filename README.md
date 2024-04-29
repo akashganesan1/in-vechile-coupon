@@ -93,6 +93,8 @@ e
 food every month (e.g.,
 “never”, ”less1”)
 1.19%
+
+
 18 RestaurantLessThan20 String Frequency of visits to a
 restaurant with an
 average expense per
@@ -100,6 +102,8 @@ person is less than $20
 every month (e.g.,
 “never”, ”less1”)
 1.02%
+
+-
 19 Restaurant20To50 Numeric Frequency of visits to a
 restaurant with an
 average expense per
@@ -107,6 +111,7 @@ person is between $20
 and $50 every month
 (e.g., “never”, ”less1”)
 1.49%
+
 20 toCoupon_GEQ5min Numeric Driving distance to the
 restaurant or bar (1 for
 greater than or equal to 5
@@ -121,16 +126,20 @@ greater than or equal to
 restaurant or bar (1 for
 greater than or equal to
 25 minutes, 0 for less)
+
 -
 23. Expiration String Duration to expire (e.g.,
 “1d”, “2h”)
-24. direction_same String Whether the coupon
-place in the same
+
 -
+25. direction_same String Whether the coupon
+place in the same
 direction in the same
 direction as the person’s
 current destination? (1
 for yes and 0 for no)
+-
+
 25 direction_opp String Whether the coupon
 place in the opposite
 direction in the same
@@ -142,3 +151,10 @@ for yes and 0 for no)
 indicating whether the
 passenger used a coupon
 (1 for Yes, 0 for No) 
+
+-
+
+Covarience Matrix
+
+![image](https://github.com/akashganesan1/in-vechile-coupon/assets/114836519/c9d4981f-1899-4f11-9389-81ccde45006b)
+
