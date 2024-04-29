@@ -1,4 +1,7 @@
-How can customer preferences and behaviors be leveraged to inform the development of new products,
+IN-VEHICLE COUPON RECOMMENDATION
+-
+
+"How can customer preferences and behaviors be leveraged to inform the development of new products,
 services, or coupon offerings that align with customer needs? To design and implement machine learning
 algorithms capable of predicting whether a customer will accept a coupon from a nearby coffee shop or
 restaurant considering the demographic and contextual attributes. Answer that the user will drive there
@@ -11,13 +14,18 @@ This problem can be solved using binary class classification. Some of the rules 
 coffee houses ≥ once per month AND destination = no urgent place AND passenger! = kids) OR (goes to
 coffee houses ≥ once per month AND the time until coupon expires = one day) Then (predict the customer
 will accept the coupon for a coffee house).
+
+-
 DATA RESOURCES: The data for the analysis is taken from UC Irvine’s Machine Learning Repository
-https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation
+https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation"
+
+-
 
 
 There are 12684 rows and 26 features. (Including target variable ‘Y’)
 Sr. No. Feature Name Data Type Description of Variable Percentage of
 Missing Value
+-
 1 Destination String Intended place to visit
 (e.g., "No Urgent Place"
 or "Home")
